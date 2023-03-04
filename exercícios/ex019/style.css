@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(151, 240, 151);
+    font-family: Arial, Helvetica, sans-serif;
+/*
+    em HTML é id = em CSS é #
+    em HTML class = em CSS é .
+    Nota: Uma coisa legal que dá para fazer quando você cria um id, é poder criar uma âncora na página que ao clicar te leva direto ao id específico. Exemplo: Colocar no final da página um <a href="#principal">Clique para voltar ao início</a>
+
+    Também dá pra usar isso para fazer um índice no começo da página. Quando tem muito conteúdo às vezes as pessoas não têm paciência de ler até encontrar o que querem, colocar essas âncoras no começo para direcionar pra cada tópico é bacana.
+*/
+}
+h1{
+    color: rgb(9, 201, 9);
+}
+h2{
+    color: rgb(53, 99, 53);
+}
+h1#principal{
+    text-align: center;
+    color: black;
+    
+}
+.basico{
+    color: rgb(53, 99, 53);
+    font-weight: bolder;
+}
+.intermediario{
+    color: rgb(179, 179, 59);
+}
+.avancado{
+    color: rgb(184, 51, 51);
+}
+.destaque{
+    background-color: rgb(81, 81, 182);
+}
